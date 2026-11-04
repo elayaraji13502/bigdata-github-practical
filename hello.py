@@ -1,5 +1,5 @@
 def get_message():
-    return "Hello from Big Data CI/CD Pipeline!"
+    return "Jenkins automatically detected my GitHub commit!"
 
 def main():
     print(get_message())
