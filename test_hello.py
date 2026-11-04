@@ -6,7 +6,7 @@ class TestHello(unittest.TestCase):
     def test_get_message(self):
         self.assertEqual(
             get_message(),
-            "Hello from Big Data CI/CD Pipeline!"
+            "Jenkins automatically detected my GitHub commit!"
         )
 
 if __name__ == "__main__":
