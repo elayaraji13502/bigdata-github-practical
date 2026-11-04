@@ -1,5 +1,8 @@
-print("Hello from GitHub Practical!")
-print("Learning Git and GitHub")
+def get_message():
+    return "Hello from Big Data CI/CD Pipeline!"
 
-print("Branching and Pull Request Demonstration")
+def main():
+    print(get_message())
 
+if __name__ == "__main__":
+    main()
